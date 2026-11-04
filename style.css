@@ -84,6 +84,6 @@ nav a{
     background: blue;
     color: white;
     &:hover{
-        
+        transform: scale(0.7);
     }
 }
