@@ -19,3 +19,8 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
