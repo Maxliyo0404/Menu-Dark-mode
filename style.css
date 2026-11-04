@@ -25,8 +25,9 @@ nav{
     align-items: center;
     gap: 40px;
 }
-.nav-list a{
-     font-size: 37px;
+nav a{
+     font-size: 27px;
+     color: white;
     &:hover{
         color: goldenrod;
     }
