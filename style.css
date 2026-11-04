@@ -42,3 +42,18 @@ nav a{
 .btn1{
     display: none;
 }
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero-left{
+    width: 50%;
+}
+.hero-left{
+    width: 50%;
+}
+.rasm1{
+    w
+}
