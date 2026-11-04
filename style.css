@@ -18,9 +18,17 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
 }
 .nav-list{
     display: flex;
     align-items: center;
     gap: 40px;
+}
+.nav-list a{
+    color: white;
+    font-size: 17px;
+    &:hover{
+        color: goldenrod;
+    }
 }
