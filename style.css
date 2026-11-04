@@ -79,4 +79,7 @@ nav a{
 .hero-btn{
     padding: 10px 40px;
     border-radius: 6px;
+    border: none;
+    background: blue;
+    color: white;
 }
