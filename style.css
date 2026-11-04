@@ -45,6 +45,9 @@ nav a{
 .btn1{
     display: none;
 }
+.hero{
+    margin-top: 100px;
+}
 .hero-info{
     display: flex;
     align-items: center;
