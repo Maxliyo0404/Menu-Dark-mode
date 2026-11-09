@@ -49,12 +49,71 @@ nav a{
     background: black;
     width: 100vw;
     height: 100vh;
-    
+    position: fixed;
+    inset: 0;
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in-out;
+}
+#nav-menus li a{
+  width: 200px;
+  height: 50px;
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  transition: 0.5s;
+  &:hover {
+        background: red;
+    }
+
+}
+#nav-menus #close{
+   position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+  
+
 }
 
+#nav-menus.show{
+    transform: translateX(0);
+}
 
-
-
+@media (max-width:700px) {
+    .nav-list{
+        display: none;
+    }
+    .btn1{
+        display: block;
+    }
+    .hero{
+        margin-top: 20px;
+    }
+    .hero-info{
+        flex-direction: column;
+    }
+     .hero-left{
+        width: 100%;
+     }
+.hero-right{
+    width: 100%;
+}
+}
 
 .hero{
     margin-top: 100px;
